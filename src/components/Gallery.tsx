@@ -1,14 +1,9 @@
-import croissantsImg from "@/assets/product-croissants.jpg";
-import baguettesImg from "@/assets/product-baguettes.jpg";
-import pastriesImg from "@/assets/product-pastries.jpg";
-import breadImg from "@/assets/product-bread.jpg";
-
 const Gallery = () => {
   const images = [
-    { src: croissantsImg, alt: "Croissants frais" },
-    { src: baguettesImg, alt: "Baguettes tradition" },
-    { src: pastriesImg, alt: "Viennoiseries" },
-    { src: breadImg, alt: "Pains artisanaux" },
+    { src: "/images/croissant-four.jpg", alt: "Croissant sortant du four" },
+    { src: "/images/Mini-viennoiseries.jpg", alt: "Mini-viennoiseries variées" },
+    { src: "/images/pains-chocolat.jpg", alt: "Pains au chocolat" },
+    { src: "/images/panier-viennoiseries.jpg", alt: "Panier de viennoiseries" },
   ];
 
   return (

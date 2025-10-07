@@ -31,7 +31,12 @@ const Navigation = () => {
     >
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <a href="#accueil" className="text-2xl font-bold text-primary">
+          <a 
+            href="#accueil" 
+            className={`text-2xl font-bold transition-colors hover:text-primary ${
+              isScrolled ? "text-foreground" : "text-white"
+            }`}
+          >
             Boulangerie
           </a>
 

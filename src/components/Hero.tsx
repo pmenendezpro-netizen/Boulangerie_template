@@ -1,12 +1,11 @@
 import { ChevronDown } from "lucide-react";
-import heroImage from "@/assets/hero-bakery.jpg";
 
 const Hero = () => {
   return (
     <section id="accueil" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        style={{ backgroundImage: `url('/images/devanture_boulangerie.jpg.webp')` }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
       </div>
