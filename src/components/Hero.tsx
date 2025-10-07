@@ -2,7 +2,7 @@ import { ChevronDown } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="accueil" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="accueil" className="relative h-screen flex items-center justify-center overflow-hidden scroll-mt-20">
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url('/images/devanture_boulangerie.jpg.webp')` }}

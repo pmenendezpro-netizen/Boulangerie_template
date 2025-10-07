@@ -7,8 +7,8 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="galerie" className="py-20 px-4 md:px-8 bg-secondary/20">
-      <div className="max-w-7xl mx-auto">
+    <section id="produits" className="py-20 px-4 md:px-8 bg-secondary/20 scroll-mt-20">
+      <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-bold text-center mb-16 text-foreground">
           Nos Créations
         </h2>

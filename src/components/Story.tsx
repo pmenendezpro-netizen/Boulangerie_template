@@ -1,7 +1,7 @@
 const Story = () => {
   return (
-    <section id="histoire" className="py-20 px-4 md:px-8 bg-gradient-to-b from-background to-secondary/30">
-      <div className="max-w-4xl mx-auto">
+    <section id="histoire" className="py-20 px-4 md:px-8 bg-gradient-to-b from-background to-secondary/30 scroll-mt-20">
+      <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-bold text-center mb-12 text-foreground">
           Notre Histoire
         </h2>
