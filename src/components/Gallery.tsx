@@ -9,7 +9,7 @@ const Gallery = () => {
 
   const products = [
     { 
-      src: "/images/croissant-four.jpg", 
+      src: "/src/assets/croissants_sortant_four.jpg", 
       alt: "Croissant sortant du four",
       title: "Croissant Artisanal",
       description: "Croissant au beurre AOP, croustillant à l'extérieur, moelleux à l'intérieur",
@@ -18,7 +18,7 @@ const Gallery = () => {
       suggestion: "Parfait pour le petit-déjeuner des enfants avec un verre de lait chaud 🥛✨"
     },
     { 
-      src: "/images/Mini-viennoiseries.jpg", 
+      src: "/src/assets/Mini-viennoiseries.jpg", 
       alt: "Mini-viennoiseries variées",
       title: "Mini-Viennoiseries",
       description: "Assortiment de mini-croissants et mini-pains au chocolat",
@@ -27,7 +27,7 @@ const Gallery = () => {
       suggestion: "Idéal pour le goûter des enfants, ils peuvent goûter plusieurs saveurs ! 🍪👶"
     },
     { 
-      src: "/images/pains-chocolat.jpg", 
+      src: "/src/assets/pains-chocolat.jpg", 
       alt: "Pains au chocolat",
       title: "Pain au Chocolat",
       description: "Pain au chocolat avec des barres de chocolat belge 70%",
@@ -36,7 +36,7 @@ const Gallery = () => {
       suggestion: "Le goûter préféré des enfants ! Parfait avec un jus de pomme 🍎🍫"
     },
     { 
-      src: "/images/panier-viennoiseries.jpg", 
+      src: "/src/assets/panier_viennoiserie.jpg", 
       alt: "Panier de viennoiseries",
       title: "Assortiment Viennoiseries",
       description: "Panier varié de viennoiseries fraîches du matin",

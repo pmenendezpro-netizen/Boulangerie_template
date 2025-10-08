@@ -51,7 +51,7 @@ export const creations: Creation[] = [
   {
     id: 'croissant-beurre',
     titre: 'Croissant au Beurre',
-    image: '/src/assets/product-croissants.jpg',
+    image: '/src/assets/croissants_sortant_four.jpg',
     prix: '1,50€',
     categorie: 'Viennoiseries',
     allergenes: ['Gluten', 'Lait'],
@@ -60,7 +60,7 @@ export const creations: Creation[] = [
   {
     id: 'pain-chocolat',
     titre: 'Pain au Chocolat',
-    image: '/src/assets/product-croissants.jpg',
+    image: '/src/assets/pains-chocolat.jpg',
     prix: '1,80€',
     categorie: 'Viennoiseries',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -69,7 +69,7 @@ export const creations: Creation[] = [
   {
     id: 'chausson-pommes',
     titre: 'Chausson aux Pommes',
-    image: '/src/assets/product-croissants.jpg',
+    image: '/src/assets/croissants.jpg',
     prix: '2,20€',
     categorie: 'Viennoiseries',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -78,7 +78,7 @@ export const creations: Creation[] = [
   {
     id: 'brioche-tete',
     titre: 'Brioche Tête',
-    image: '/src/assets/product-croissants.jpg',
+    image: '/src/assets/panier_viennoiserie.jpg',
     prix: '2,50€',
     categorie: 'Viennoiseries',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
