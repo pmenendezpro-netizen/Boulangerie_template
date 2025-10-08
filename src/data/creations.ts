@@ -13,7 +13,7 @@ export const creations: Creation[] = [
   {
     id: 'baguette-tradition',
     titre: 'Baguette Tradition',
-    image: '/images/creations/baguette-tradition.jpg',
+    image: '/src/assets/tradition_baguette.jpg',
     prix: '1,20€',
     categorie: 'Pain',
     allergenes: ['Gluten'],
@@ -22,7 +22,7 @@ export const creations: Creation[] = [
   {
     id: 'pain-complet',
     titre: 'Pain Complet',
-    image: '/images/creations/pain-complet.jpg',
+    image: '/src/assets/pain_campagne.jpg',
     prix: '2,50€',
     categorie: 'Pain',
     allergenes: ['Gluten'],
@@ -31,7 +31,7 @@ export const creations: Creation[] = [
   {
     id: 'pain-cereales',
     titre: 'Pain aux Céréales',
-    image: '/images/creations/pain-cereales.jpg',
+    image: '/src/assets/Pain_Nordique.jpg',
     prix: '2,80€',
     categorie: 'Pain',
     allergenes: ['Gluten'],
@@ -40,7 +40,7 @@ export const creations: Creation[] = [
   {
     id: 'pain-aux-noix',
     titre: 'Pain aux Noix',
-    image: '/images/creations/pain-aux-noix.jpg',
+    image: '/src/assets/pain_campagne.jpg',
     prix: '3,20€',
     categorie: 'Pain',
     allergenes: ['Gluten', 'Fruits à coque'],
@@ -51,7 +51,7 @@ export const creations: Creation[] = [
   {
     id: 'croissant-beurre',
     titre: 'Croissant au Beurre',
-    image: '/images/creations/croissant-beurre.jpg',
+    image: '/src/assets/product-croissants.jpg',
     prix: '1,50€',
     categorie: 'Viennoiseries',
     allergenes: ['Gluten', 'Lait'],
@@ -60,7 +60,7 @@ export const creations: Creation[] = [
   {
     id: 'pain-chocolat',
     titre: 'Pain au Chocolat',
-    image: '/images/creations/pain-chocolat.jpg',
+    image: '/src/assets/product-croissants.jpg',
     prix: '1,80€',
     categorie: 'Viennoiseries',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -69,7 +69,7 @@ export const creations: Creation[] = [
   {
     id: 'chausson-pommes',
     titre: 'Chausson aux Pommes',
-    image: '/images/creations/chausson-pommes.jpg',
+    image: '/src/assets/product-croissants.jpg',
     prix: '2,20€',
     categorie: 'Viennoiseries',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -78,7 +78,7 @@ export const creations: Creation[] = [
   {
     id: 'brioche-tete',
     titre: 'Brioche Tête',
-    image: '/images/creations/brioche-tete.jpg',
+    image: '/src/assets/product-croissants.jpg',
     prix: '2,50€',
     categorie: 'Viennoiseries',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -89,7 +89,7 @@ export const creations: Creation[] = [
   {
     id: 'eclair-chocolat',
     titre: 'Éclair au Chocolat',
-    image: '/images/creations/eclair-chocolat.jpg',
+    image: '/src/assets/Eclair_Chocolat.jpg',
     prix: '3,50€',
     categorie: 'Desserts individuels',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -98,7 +98,7 @@ export const creations: Creation[] = [
   {
     id: 'tarte-citron',
     titre: 'Tarte au Citron',
-    image: '/images/creations/tarte-citron.jpg',
+    image: '/src/assets/tarte-au-citron.jpg',
     prix: '4,20€',
     categorie: 'Desserts individuels',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -107,7 +107,7 @@ export const creations: Creation[] = [
   {
     id: 'millefeuille',
     titre: 'Millefeuille',
-    image: '/images/creations/millefeuille.jpg',
+    image: '/src/assets/royal_chocolat.jpg',
     prix: '4,80€',
     categorie: 'Desserts individuels',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -116,7 +116,7 @@ export const creations: Creation[] = [
   {
     id: 'religieuse-cafe',
     titre: 'Religieuse au Café',
-    image: '/images/creations/religieuse-cafe.jpg',
+    image: '/src/assets/Religieuse_chocolat.jpg',
     prix: '3,80€',
     categorie: 'Desserts individuels',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -127,7 +127,7 @@ export const creations: Creation[] = [
   {
     id: 'gateau-anniversaire',
     titre: 'Gâteau d\'Anniversaire',
-    image: '/images/creations/gateau-anniversaire.jpg',
+    image: '/src/assets/royal_chocolat.jpg',
     prix: '25,00€',
     categorie: 'Desserts sur commande',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -136,7 +136,7 @@ export const creations: Creation[] = [
   {
     id: 'tarte-tatin',
     titre: 'Tarte Tatin',
-    image: '/images/creations/tarte-tatin.jpg',
+    image: '/src/assets/galette_rois.jpg',
     prix: '18,00€',
     categorie: 'Desserts sur commande',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -145,7 +145,7 @@ export const creations: Creation[] = [
   {
     id: 'cheesecake-fruits',
     titre: 'Cheesecake aux Fruits',
-    image: '/images/creations/cheesecake-fruits.jpg',
+    image: '/src/assets/royal_chocolat.jpg',
     prix: '22,00€',
     categorie: 'Desserts sur commande',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
@@ -154,7 +154,7 @@ export const creations: Creation[] = [
   {
     id: 'opera',
     titre: 'Opéra',
-    image: '/images/creations/opera.jpg',
+    image: '/src/assets/parisBrest.jpg',
     prix: '28,00€',
     categorie: 'Desserts sur commande',
     allergenes: ['Gluten', 'Lait', 'Œufs'],
