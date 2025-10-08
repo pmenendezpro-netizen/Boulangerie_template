@@ -97,7 +97,7 @@ interface CreationCardProps {
 
 const CreationCard = ({ creation }: CreationCardProps) => {
   return (
-    <div className="group relative bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden">
+    <div className="group relative bg-white rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden flex flex-col h-full">
       {/* Image */}
       <div className="relative h-64 overflow-hidden">
         <img
@@ -113,12 +113,12 @@ const CreationCard = ({ creation }: CreationCardProps) => {
       </div>
 
       {/* Contenu */}
-      <div className="p-6">
+      <div className="p-6 flex flex-col flex-grow">
         <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
           {creation.titre}
         </h3>
         
-        <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
+        <p className="text-muted-foreground text-sm mb-4 leading-relaxed flex-grow">
           {creation.description}
         </p>
 
@@ -143,9 +143,9 @@ const CreationCard = ({ creation }: CreationCardProps) => {
           </div>
         )}
 
-        {/* Bouton d'action */}
+        {/* Bouton d'action - toujours en bas */}
         <Button 
-          className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-200"
+          className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-200 mt-auto"
           variant="outline"
         >
           Voir les détails
