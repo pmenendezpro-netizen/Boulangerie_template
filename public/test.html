@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Boulangerie</title>
+</head>
+<body>
+    <h1>Test de la boulangerie</h1>
+    <p>Si vous voyez cette page, GitHub Pages fonctionne !</p>
+    <p>L'application React devrait se charger ci-dessous :</p>
+    <div id="root">
+        <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+            <h2>Chargement de l'application React...</h2>
+            <p>Veuillez patienter...</p>
+        </div>
+    </div>
+    
+    <!-- Inclure les assets de l'application React -->
+    <script type="module" crossorigin src="/Boulangerie_template/assets/index-Bb13x2go.js"></script>
+    <link rel="stylesheet" crossorigin href="/Boulangerie_template/assets/index-CL_FZRRh.css">
+    
+    <script>
+        // Diagnostic des erreurs
+        window.addEventListener('error', function(e) {
+            console.error('Erreur JavaScript:', e.error);
+            document.getElementById('root').innerHTML = 
+                '<div style="text-align: center; padding: 50px; font-family: Arial, sans-serif; color: red;">' +
+                '<h2>Erreur JavaScript détectée</h2>' +
+                '<p>Erreur: ' + e.error.message + '</p>' +
+                '<p>Fichier: ' + e.filename + '</p>' +
+                '<p>Ligne: ' + e.lineno + '</p>' +
+                '</div>';
+        });
+        
+        // Timeout pour détecter si l'app ne se charge pas
+        setTimeout(function() {
+            if (document.getElementById('root').innerHTML.includes('Chargement de l\'application React')) {
+                document.getElementById('root').innerHTML = 
+                    '<div style="text-align: center; padding: 50px; font-family: Arial, sans-serif; color: orange;">' +
+                    '<h2>Application React ne s\'est pas chargée</h2>' +
+                    '<p>L\'application n\'a pas démarré dans les 5 secondes.</p>' +
+                    '<p>Vérifiez la console du navigateur pour les erreurs.</p>' +
+                    '</div>';
+            }
+        }, 5000);
+    </script>
+</body>
+</html>

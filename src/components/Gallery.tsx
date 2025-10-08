@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -47,9 +49,19 @@ const Gallery = () => {
   return (
     <section id="produits" className="py-20 px-4 md:px-8 bg-secondary/20 scroll-mt-20">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-5xl md:text-6xl font-bold text-center mb-16 text-foreground">
-          Nos Créations
-        </h2>
+        <div className="text-center mb-16">
+          <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
+            Nos Créations
+          </h2>
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            Découvrez nos spécialités artisanales, préparées avec passion et savoir-faire traditionnel
+          </p>
+          <Link to="/creations">
+            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              En savoir plus sur nos créations et nos prix
+            </Button>
+          </Link>
+        </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product, index) => (
