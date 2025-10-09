@@ -3,13 +3,14 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/u
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { images } from "@/assets/images";
 
 const Gallery = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const products = [
     { 
-      src: "/src/assets/croissants_sortant_four.jpg", 
+      src: images.croissantsSortantFour, 
       alt: "Croissant sortant du four",
       title: "Croissant Artisanal",
       description: "Croissant au beurre AOP, croustillant à l'extérieur, moelleux à l'intérieur",
@@ -18,7 +19,7 @@ const Gallery = () => {
       suggestion: "Parfait pour le petit-déjeuner des enfants avec un verre de lait chaud 🥛✨"
     },
     { 
-      src: "/src/assets/Mini-viennoiseries.jpg", 
+      src: images.miniViennoiseries, 
       alt: "Mini-viennoiseries variées",
       title: "Mini-Viennoiseries",
       description: "Assortiment de mini-croissants et mini-pains au chocolat",
@@ -27,7 +28,7 @@ const Gallery = () => {
       suggestion: "Idéal pour le goûter des enfants, ils peuvent goûter plusieurs saveurs ! 🍪👶"
     },
     { 
-      src: "/src/assets/pains-chocolat.jpg", 
+      src: images.painsChocolat, 
       alt: "Pains au chocolat",
       title: "Pain au Chocolat",
       description: "Pain au chocolat avec des barres de chocolat belge 70%",
@@ -36,7 +37,7 @@ const Gallery = () => {
       suggestion: "Le goûter préféré des enfants ! Parfait avec un jus de pomme 🍎🍫"
     },
     { 
-      src: "/src/assets/panier_viennoiserie.jpg", 
+      src: images.panierViennoiserie, 
       alt: "Panier de viennoiseries",
       title: "Assortiment Viennoiseries",
       description: "Panier varié de viennoiseries fraîches du matin",
